@@ -1,0 +1,48 @@
+/* Write your CSS here */
+.searchBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  border: 2px;
+  border-color: black;
+  border-style: solid;
+  height: 30px;
+  width: 300px;
+}
+.input {
+  outline: none;
+  border: 0px;
+}
+.img {
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+  align-self: flex-end;
+}
+.heading {
+  padding-left: 30px;
+}
+.selectionbar {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+.search {
+  display: flex;
+  flex-direction: column;
+}
+.finalDiv {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+.bar {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+  list-style: none;
+}
+
+.list {
+  list-style-type: none;
+}
